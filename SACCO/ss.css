@@ -1,0 +1,73 @@
+<meta name="viewport"content="device width,initial-scale=1">
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.wrapper
+{background-attachment: rgb(26, 27, 26);}
+.topnav {
+  overflow: hidden;
+  background-color: rgb(19, 17, 17);
+}
+.topnav a {
+  float: left;
+  color: #eff7f0;
+  text-align: center;
+  padding: 14px 70px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.topnav a:hover {
+  background-color: orange;
+  color: rgb(12, 14, 13);
+}
+a.active{
+  color: white;
+  background-color: orange;
+}
+.header{position:fixed;}
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color:rgb(24, 22, 22);
+  color: white;
+}
+.fa {
+  padding: 15px;
+  font-size: 3px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin:3px;
+  border-radius: 20%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: violet;
+  color: white;
+}

@@ -1,0 +1,31 @@
+<?php
+session_start();
+include('usercon.php');
+if(!isset($_session["username"])){
+    header("location:HOME.php");
+exit();}
+?>
+<html>
+<head>
+<title>My Account</title>
+<style>
+    div{
+    background-color: rgb(208, 224, 219);
+    border:2px solid;
+    padding:5px;
+    resize: both;
+    overflow:auto;
+    width:30%;}
+</style>
+</head>
+<body >
+    <p style="text-align: right;"><a style="background-color: red;border-radius:40%;font-size: xx-large;text-decoration:none;" href="logout.php">Logout</a></p>
+    <div class="el">
+<h2><i>My account</i></h2>
+<ol>
+<li><a href="check.html">Check your balance</a></li>
+<li><a href="chp.html">Change PIN</a></li>
+</ol>
+</div>
+</body>
+</html>
